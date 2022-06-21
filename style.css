@@ -162,8 +162,55 @@ max-height: 100%;
 .banner{
     border-radius: 15px;
     background-color: #3882F6;
-    height: 200px;
+    height: 170px;
     margin: 100px 240px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 0 60px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    color: rgba(255, 255, 255, 0.835);
+    margin: auto;
+}
+
+.banner-title {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.banner-subtitle {
+    font-size: 14px;
+}
+
+.banner-button {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-button>a{
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.banner-button>a:hover{
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    color: #3882F6;
+    padding: 14px;
+    background-color: white;
+    font-weight: bold;
 }
 
 .footer{
